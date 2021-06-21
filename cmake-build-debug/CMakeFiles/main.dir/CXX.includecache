@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oleg/CLionProjects/data-structures/src/main.cpp
+test-runner/test-runner.h
+/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
+
+/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
+cstdlib
+-
+iostream
+-
+exception
+-
+cassert
+-
+string
+-
+sstream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/test-runner/test-runner.cpp.o -o main 
