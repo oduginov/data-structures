@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.cpp" "/home/oleg/CLionProjects/data-structures/cmake-build-debug/CMakeFiles/main.dir/src/graphs/tests/node-test.cpp.o"
   "/home/oleg/CLionProjects/data-structures/src/main.cpp" "/home/oleg/CLionProjects/data-structures/cmake-build-debug/CMakeFiles/main.dir/src/main.cpp.o"
   "/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.cpp" "/home/oleg/CLionProjects/data-structures/cmake-build-debug/CMakeFiles/main.dir/src/test-runner/test-runner.cpp.o"
   )

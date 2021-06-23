@@ -6,8 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/home/oleg/CLionProjects/data-structures/src/graphs/node.h
+vector
+-
+
+/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.cpp
+node-test.h
+/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.h
+
+/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.h
+../../test-runner/test-runner.h
+/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
+../node.h
+/home/oleg/CLionProjects/data-structures/src/graphs/node.h
+
 /home/oleg/CLionProjects/data-structures/src/main.cpp
 test-runner/test-runner.h
+/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
+graphs/tests/node-test.h
+/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.h
+
+/home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.cpp
+test-runner.h
 /home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
 
 /home/oleg/CLionProjects/data-structures/src/test-runner/test-runner.h
@@ -22,5 +42,7 @@ cassert
 string
 -
 sstream
+-
+vector
 -
 

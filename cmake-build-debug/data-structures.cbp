@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/oleg/CLionProjects/data-structures/src/graphs/tests/node-test.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/oleg/CLionProjects/data-structures/src/main.cpp">
 			<Option target="main"/>
 		</Unit>

@@ -142,6 +142,33 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/graphs/tests/node-test.o: src/graphs/tests/node-test.cpp.o
+
+.PHONY : src/graphs/tests/node-test.o
+
+# target to build an object file
+src/graphs/tests/node-test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphs/tests/node-test.cpp.o
+.PHONY : src/graphs/tests/node-test.cpp.o
+
+src/graphs/tests/node-test.i: src/graphs/tests/node-test.cpp.i
+
+.PHONY : src/graphs/tests/node-test.i
+
+# target to preprocess a source file
+src/graphs/tests/node-test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphs/tests/node-test.cpp.i
+.PHONY : src/graphs/tests/node-test.cpp.i
+
+src/graphs/tests/node-test.s: src/graphs/tests/node-test.cpp.s
+
+.PHONY : src/graphs/tests/node-test.s
+
+# target to generate assembly for a file
+src/graphs/tests/node-test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/graphs/tests/node-test.cpp.s
+.PHONY : src/graphs/tests/node-test.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -205,6 +232,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/graphs/tests/node-test.o"
+	@echo "... src/graphs/tests/node-test.i"
+	@echo "... src/graphs/tests/node-test.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

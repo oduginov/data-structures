@@ -6,6 +6,7 @@
 #include <cassert>
 #include <string>
 #include <sstream>
+#include <vector>
 
 #define ASSERT(actual, expected) {                              \
     std::ostringstream os;                                      \
@@ -23,6 +24,15 @@ void Assert(const T &actual, const T &expected, const std::string &message) {
     if (actual != expected) {
         throw std::runtime_error(message);
     }
+}
+
+template<typename T>
+std::ostream &operator<<(std::ostream &os, const std::vector<T> &vector) {
+    for (const auto &e : vector) {
+        os << e << " ";
+    }
+    os << std::endl;
+    return os;
 }
 
 class TestRunner {
